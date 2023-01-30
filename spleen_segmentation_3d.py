@@ -37,8 +37,7 @@ import glob
 print_config()
 
 # Setup data directory
-# directory = os.environ.get("MONAI_DATA_DIRECTORY")
-directory = "/Users/julien/temp/monai-data"
+directory = os.environ.get("MONAI_DATA_DIRECTORY")
 root_dir = tempfile.mkdtemp() if directory is None else directory
 print(root_dir)
 
