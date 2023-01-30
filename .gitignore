@@ -1,0 +1,4 @@
+.eggs/
+.idea/
+monai_tutorial.egg-info/
+venv/
