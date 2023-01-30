@@ -9,6 +9,7 @@ setup(
     url='',
     packages=find_packages(include=['exampleproject', 'exampleproject.*']),
     install_requires=[
+        'matplotlib',
         'monai',
     ],
     extras_require={},
