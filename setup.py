@@ -11,10 +11,11 @@ setup(
     install_requires=[
         'matplotlib',
         'monai',
+        'tqdm'
     ],
     extras_require={},
-    setup_requires=['pytest-runner', 'flake8'],
-    tests_require=['pytest'],
+    setup_requires=[],
+    tests_require=[],
     entry_points={},
     package_data={}
 )
